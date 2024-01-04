@@ -1,0 +1,375 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0px;
+    font-family: 'Teko', sans-serif!important;
+    margin: 0px;
+}
+.navbar{
+
+    position: fixed;
+}
+.scroll-up-btn{
+    position: fixed;
+    background: crimson;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.logo_main{
+    width: 100px; 
+    height: 100px;
+    margin: 0rem 2rem 0px 13rem;
+}
+.navbar i{
+    padding: 13px;
+    background: red;
+    width: 37%;
+    border-radius: 100%;
+}
+
+.fa-solid:hover{
+    animation: backwards;
+}
+.navbar span{
+    color: red;
+    font-size: 17px;
+}
+
+.logo{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.logo span{
+    font-size: 20px;
+}
+.Slider-main{
+    position: relative;
+    background-color: black;
+}
+.Slider-main .navbar{
+    position: absolute;
+    z-index: 2;
+    background: transparent!important;
+}
+
+.nav-item{
+    margin: 0px 1rem 0px 1rem;
+    font-weight: bold;
+ 
+}
+.navbar-nav .nav-link.active{
+    
+    color: #e9ecef!important;
+}
+.nav-link{
+    color: #e9ecef!important;
+}
+
+.owl-theme{
+    position: relative;
+}
+.owl-theme p{
+    font-size: 24px;
+}
+.owl-theme h1{
+    font-size: 50px;
+}
+.img01{
+    border-radius: 10px;
+    margin: 5rem 0px 0px 10rem;
+}
+
+.img02{
+    margin: -9rem 0px 0rem 2rem;
+    border-radius: 10px;
+}
+.item1{
+    background-image: url(../Images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    color: white;
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+    justify-content: center;
+}
+.item2{
+    background-image: url(../Images/home-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item1 p{
+    font-weight: bold;
+}
+
+.item2 p{
+    font-weight: bold;
+}
+.item2 a{
+    position: fixed;
+    background: red;
+    margin: 40px 0px 0px 0px;
+    width: 20%;
+    padding: 10px 0px 0px 0px;
+    font-size: 35px;
+}
+.owl-nav{
+    display: none;
+}
+
+.sec-header h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sec-header h4{
+    margin: 4rem 0px 0px 0px;
+}
+
+.txt-box{
+    margin: 4rem 0px 0px 0px;
+}
+
+.sec-header p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: #666!important;
+    font-size: 16px;
+}
+
+.sec-header h4{
+    color: red;
+    font-weight: 400;
+    font-family: "Teko", sans-serif;
+}
+
+.part2 li{
+    display: block;
+    margin: 0px 0px 0px -30px;
+    font-size: 22px;
+}
+.part2 ul{
+    margin-top: 50px;
+}
+.part2 i{
+    color: red!important;
+}
+.since{
+    position: relative;
+    text-align: center;
+    border-radius: 50px;
+    background: black;
+    width: 11%;
+    padding: 14px 0px 0px 0px;
+    max-height: max-content;
+    margin: -4rem 0px 0px 24rem;
+}
+.part2 span{
+    color: white;
+}
+
+.txt-box a {
+    background: red;
+    width: 35%;
+    position: relative;
+    padding: 10px 15px 0px 0px;
+    margin: 35px 0px 0px 0px;
+}
+
+/* Service Section */
+#serviceSection{
+    margin-top: 7rem;
+    background-color: black;
+}
+#serviceSection h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #e9ecef;
+}
+#contactArea a:hover{
+    background: black;
+    color: #e9ecef;
+}
+.service-header{
+    margin-top: 5rem!important;
+}
+
+.sec-header p{
+    color: #e9ecef;
+}
+
+.service-box{
+    color: #e9ecef;
+    background-color: #1d1e22;
+    display: flex;
+    height: 55%;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 50px 40px;
+    margin: 6rem 0;
+}
+.service-box:hover{
+    background: rgb(144, 73, 73);
+}
+.img-box{
+    position: relative;
+}
+.img002{
+    opacity: 0;
+    position: absolute;
+    width: 70px;
+    margin: 0px 0px 0px -70px;
+}
+
+.img002:hover{
+    display:flex
+    opacity:1;
+}
+.img001{
+    position: absolute;
+    width: 70px;
+    margin: 0px 0px 0px -70px;
+ 
+}
+
+.service-box h3{
+    font-size: 40px!important;
+}
+.service-box h4{
+    font-size: 15px!important;
+    margin: 3rem 0px 0px 0px!important;
+}
+
+#contactArea .contact-box{
+    background: red;
+    border-radius: 10px;
+    margin: 10rem 0px 0px 0px;
+    padding: 80px;
+    position: relative;
+    
+}
+
+.contact-box h2{
+    color: #1d1e22;
+}
+
+#footerSection{
+   background:#222429;
+    margin: -7rem 0px 0px 0px;
+}
+
+.footer-box{
+    margin: 15rem 0px 0px 0px;
+}
+.footer-box .about{
+    color:burlywood;
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+}
+
+.footer-box logo{
+    margin: 5rem 0px 0px 0px;
+}
+
+.box2 p{
+    color: #e9ecef;
+    font-size: 24px;
+    margin: 0px 0px 28px 28px;
+}
+
+.box2 a{
+    color: #9ca3a9;
+    font-size: 17px;
+    margin: 15px 0px 0px 0px;
+    Font-family: "Rubik", sans-serif;
+
+}
+
+.box2 ul li a{
+    color: #9ca3a9;
+    text-decoration: none;
+}
+
+.box3 p{
+    color: #e9ecef;
+    font-size: 24px;
+    margin-bottom: 0px!important;
+
+}
+
+.box3 span{
+    color:#9ca3a9;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px 0px 0px 0px;
+    font-family: 'Rubik';
+}
+
+.box4 p{
+    color: white;
+    font-size: 24px;
+}
+.form form-control{
+    background: #000;
+}
+.form-control:hover{
+    background-color: #9ca3a9;
+}
+.copy-right{
+    text-align: center;
+    margin: 6rem 0px 0px 0px;
+}
+
+.copy-right span{
+    color: #9ca3a9;
+    font-family: "Rubik", sans-serif!important;
+    text-align: center;
+}
+
+.copy-right hr{
+    color:#666;
+}
+.col{
+    position: relative;
+    margin: 0px 0px 2rem 0px!important;
+}
+
+.social-links a{
+    background: #000;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.icon-box i{
+    color: red;
+}
+.social-links i{
+    margin-top: 10px;
+    color: #9ca3a9;
+}
+
+#contactArea .layer-btn{
+    padding: -6px 0px 0px 0px;
+    width: 60%;
+    position: relative;
+    background: white;
+}
